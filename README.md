@@ -68,7 +68,7 @@ This release introduces the **AI-powered Test Case Generation Bot**, a Python-ba
 1. User creates a story in Jira.  
 2. Download jitatestgen.py from repo and update variables at the top of the script.
 3. LLM generates test cases + code.  
-4. Output is stored in repos and linked back to Jira.  
+4. Output is stored in repos and linked back to the Jira story in the comments section.
 5. *(Future)* CI/CD runs generated tests and reports back to Jira.  
 
 ---
