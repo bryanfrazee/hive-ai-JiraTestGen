@@ -11,8 +11,8 @@ parser.add_argument("issue_key", help="The Jira issue key, e.g. SCRUM-1")
 args = parser.parse_args()
 
 # --- 2. Jira Setup ---
-JIRA_SERVER = "https://hive-jiratestgen.atlassian.net"
-JIRA_EMAIL = "bryanfrazee001@gmail.com"
+JIRA_SERVER = "<your-jira-server-url>"
+JIRA_EMAIL = "<your-jira-linked-email>"
 JIRA_API_TOKEN = os.getenv("JIRA_API_TOKEN")  # store securely
 ISSUE_KEY = args.issue_key   # <-- use parameter from command line
 
