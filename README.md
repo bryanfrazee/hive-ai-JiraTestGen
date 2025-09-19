@@ -58,12 +58,13 @@ This release introduces the **AI-powered Test Case Generation Bot**, a Python-ba
 ---
 
 ## 🔄 Workflow and Usage
-- Preqs
-- Setup a jira account if not already done.
-- Setup and have Ollama running locally.
--   brew install ollama  OR
--   goto https://ollama.com/download
-- Create a Jira Token
+- **Prereqs**
+  - Setup a Jira account (if not already done).
+  - Setup and have Ollama running locally:
+    - `brew install ollama`  
+    - or [download from Ollama](https://ollama.com/download)
+  - Create a Jira Token
+
   
 1. User creates a story in Jira.  
 2. Download jiratestgen.py from repo and update variables at the top of the script.
