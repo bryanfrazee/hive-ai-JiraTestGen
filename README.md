@@ -11,6 +11,11 @@ This release introduces the **AI-powered Test Case Generation Bot**, a Python-ba
   - Automatically fetches user stories (summary + description).
   - Posts AI-generated test cases and code directly as Jira comments for full traceability.
 
+
+![Jira Integration Screenshot](./images/jira.png)
+
+![Jira Integration Screenshot](./images/terminal.png)
+
 - **LLM-Powered Test Case Generation**
   - Connects to **local LLMs (Ollama with Llama 3.1 or CodeLlama)** for cost-effective and private code generation.
   - Generates:
