@@ -71,12 +71,14 @@ This release introduces the **AI-powered Test Case Generation Bot**, a Python-ba
   - Create a Jira Token
 
   
-1. User creates a story in Jira.  
-2. Download jiratestgen.py from repo and update variables at the top of the script.
-3. Run python3 jiratestgen.py <issue/story # ie.. SCRUM-1> (takes about 1 minute)
-4. LLM generates test cases + code.  
-5. Output is stored in repos and linked back to the Jira story in the comments section.
-6. *(Future)* CI/CD runs generated tests and reports back to Jira.  
+1. User creates a story in Jira.
+2. git clone https://github.com/YOUR-USERNAME/jira-ai-testgen.git
+   cd jira-ai-testgen 
+3. pip install -r requirements.txt
+4. python3 jiratestgen.py SCRUM-1 ....<issue/story # ie.. SCRUM-1> (takes about 1 minute)
+5. LLM generates test cases + code.  
+6. Output is stored in repos and linked back to the Jira story in the comments section.
+7. *(Future)* CI/CD runs generated tests and reports back to Jira.  
 
 ---
 
