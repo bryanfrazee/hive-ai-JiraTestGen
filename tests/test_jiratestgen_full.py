@@ -1,15 +1,10 @@
 # tests/test_jiratestgen_full.py
-import sys, os
+import pytest
 from unittest.mock import patch, MagicMock
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
-
 from jiratestgen.jiratestgen import main
 
 def test_main_pipeline(monkeypatch):
-    # Fake environment variable
     monkeypatch.setenv("JIRA_API_TOKEN", "fake-token")
-
     fake_issue = MagicMock()
     fake_issue.fields.summary = "User logs in"
     fake_issue.fields.description = "As a user, I want to login."
