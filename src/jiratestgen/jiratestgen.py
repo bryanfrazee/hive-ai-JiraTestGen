@@ -3,8 +3,8 @@ import os
 import requests
 from jira import JIRA
 
-JIRA_SERVER = "https://hive-jiratestgen.atlassian.net"
-JIRA_EMAIL = "bryanfrazee001@gmail.com"
+JIRA_SERVER = "<jira project url>"
+JIRA_EMAIL = "<your email used for jira>"
 
 def get_jira_issue(issue_key: str, jira_token: str):
     jira = JIRA(server=JIRA_SERVER, basic_auth=(JIRA_EMAIL, jira_token))
