@@ -6,7 +6,6 @@ on:
   pull_request:
     branches:
       - main   # or the branch you want PRs to target
-      - fixci
 jobs:
   test:
     runs-on: ubuntu-latest
