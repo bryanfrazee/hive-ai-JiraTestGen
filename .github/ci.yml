@@ -2,11 +2,11 @@
 name: Python CI
 
 on:
-  workflow_dispatch:  
+  workflow_dispatch:
   pull_request:
     branches:
       - main   # or the branch you want PRs to target
-
+      - fixci
 jobs:
   test:
     runs-on: ubuntu-latest
