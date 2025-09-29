@@ -1,4 +1,4 @@
-# 🚀 Release Notes – AI Bot for Test Case Generation (v0.1.0)
+# 🚀 Release Notes – AI Bot for Test Case and Code Generation (v0.1.0)
 
 ## 📖 Overview  
 This release introduces the **AI-powered Test Case Generation Bot**, a Python-based automation assistant that integrates **Jira** with **local LLMs (via Ollama)** to automatically generate, manage, and track test cases and test code from user stories.  
