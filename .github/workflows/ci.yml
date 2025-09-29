@@ -35,4 +35,5 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install -e .
-          pytest tests/
+          pytest tests/test_jiratestgen_full.py
+          pytest tests/test_jiratestgen_mock.py
