@@ -6,6 +6,9 @@ on:
   pull_request:
     branches:
       - main   # or the branch you want PRs to target
+  push:
+    branches:
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
