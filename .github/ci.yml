@@ -6,7 +6,7 @@ on:
   pull_request:
     branches:
       - main   # or the branch you want PRs to target
-
+      - bryanfrazee-patch-6
 jobs:
   test:
     runs-on: ubuntu-latest
